@@ -1,5 +1,17 @@
 {
-  "name": "lamumu-run-api",
+  "name": "flapy-lamumu",
+  "version": "1.0.0",
   "private": true,
-  "dependencies": { "ioredis": "5.4.1" }
+  "description": "Flapy Lamumu game with ioredis leaderboard (Vercel Node.js Functions)",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo \"No build step\"",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "ioredis": "^5.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
